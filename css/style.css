@@ -1,0 +1,155 @@
+:focus::-webkit-input-placeholder {
+  color: transparent
+}
+
+:focus::-moz-placeholder {
+  color: transparent
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent
+}
+::-webkit-input-placeholder {
+  text-align:center;
+  }
+  
+  :-moz-placeholder { /* Firefox 18- */
+     text-align:center;  
+  }
+  
+  ::-moz-placeholder {  /* Firefox 19+ */
+     text-align:center;  
+  }
+  
+  :-ms-input-placeholder {  
+     text-align:center; 
+  }
+
+.form-control:focus{
+  border-color: #343a40;
+  box-shadow: 0 0 0 0.2rem rgba(30,30,30,.25);
+}
+  .nav-item a::after {
+    content: "";
+    background-color: gray;
+    height: 1px;
+    width: 100%;
+    transform: scale(0);
+    transition: .3s;
+    display: block;
+  }
+  
+  .nav-item a:hover::after {
+    transform: scale(1);
+  }
+
+  .navbar-brand{
+    font-size: 28px;
+  }
+
+  .logoGradient{
+    font-family: "Aclonica", sans-serif;
+    background-image: linear-gradient(45deg, #303030 0%, #707070 46%, #bbb 100%);
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .nav-item{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+
+  }
+
+  .input__wrapper {
+    width: 100%;
+    position: relative;
+    margin: 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+   
+  .input__file {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+  }
+   
+   
+  .input__file-button-text {
+    line-height: 1;
+    margin-top: 1px;
+  }
+   
+  .input__file-button {
+    width: 300px;
+    height: 60px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .divImage{
+    background-color: #bbb;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .galleryItem{
+    transition: .2s;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .galleryItemBorder{
+    /* padding: 5px; */
+    position: relative;
+    border-radius: 30px;
+  }
+  .galleryItem:hover{
+    transform: scale(0.95);
+  }
+  .modal-dialog{
+    height: 70%;
+  }
+  .modal-content{
+    height: 100%;
+  }
+  .loginInput{
+    border: 1px solid lightgray;
+    outline: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 3px;
+  }
+
+  .navbar{
+    border-bottom: 2px solid lightgray;
+  }
+  .signLink{
+    font-size: 17px;
+     color: #303030;
+    font-weight: bold;
+
+  }
+  .signLink:hover{
+    text-decoration: none;
+    color: #707070;
+  }
+
+  .logoutBtn{
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid #303030;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+    background-color: #eee;
+  }
+
+  .logoutBtn:focus{
+    outline: 0;
+  }
+  .logoutBtn:hover{
+    background-color: #ddd;
+  }
